@@ -7,8 +7,8 @@
 
 using namespace websockets;
 
-const char *ssid = "";
-const char *password = "";
+const char *ssid = "中央政治局";
+const char *password = "20011228";
 
 #define GPIO0 0
 #define GPIO2 2
@@ -64,7 +64,7 @@ void connectWS() {
   client.onEvent(onEventsCallback);
 
   // Connect to server
-  client.connect("wss://0.0.0.0/cb1cc77a-bbd1-48af-a6a7-5f969e62058b");
+  client.connect("wss://spb.rany.ing/cb1cc77a");
 
   Serial.println("Websockets Server Connecting...");
 }

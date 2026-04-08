@@ -1,5 +1,7 @@
 {
-  "dependencies": {
-    "ws": "^8.13.0"
-  }
+    "dependencies": {
+        "aedes": "^0.47.0",
+        "mqtt": "^5.15.1",
+        "mqtt-server": "^0.0.3"
+    }
 }
